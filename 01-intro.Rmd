@@ -34,7 +34,7 @@ Now that we have some initial clarity on the definition of GDP, let's see it in 
 We will use [Bureau of Economic Analysis](www.bea.gov) a fair bit in the coming weeks. For now, let's keep practicing with the [St. Louis FRED](https://fred.stlouisfed.org/) website. Using the search tool, go find the data series for "Gross Domestic Product". When you do, you should be able to reproduce Figure 1 below.
 
 
-```{r, echo = F, out.width= '75%', fig.align='center', fig.cap= "Figure.caption"}
+```{r, echo = F, out.width= '75%', fig.align='center', fig.cap= "US GDP (1947-2021"}
 
     knitr::include_graphics('./GDP4721.png')
 ```
@@ -62,11 +62,11 @@ $\frac{22.296 - 20.893}{20.893} * 100 = 6.715 \%$
 
 And now we have answered the second question. The economy grew over 6.7\% in 2021. Now, on your own, convert the GDP data series in FRED to "percent change". You should have been able to replicate Figure 2, below. If not, you need to try a few more times **but then ask for help**. 
 
-\begin{figure}
-  \caption{US GDP Growth Rates, 1947-2021}
-  \label{Figure 2:}
-    \includegraphics{GDP4721pctch.png}
-\end{figure}
+```{r, echo = F, out.width= '75%', fig.align='center', fig.cap= "US GDP Growth Rates, 1947-2021"}
+
+    knitr::include_graphics('./GDP4721pctch.png')
+```
+
 
 Figure 2 tells you the story of growth in the US Economy from 1947, just two years after the conclusion to World War II. The graph really shows a story of two periods of growth. From essentially 1950 - 1978, we see that the growth rate in the economy was increasing (imagine a thick red line that cuts through the middle of the line graph). But, notice from 1978 to 2021 the underlying trend is downward sloping (still positive growth, but increasingly slower growth). This break will be an important one as we examine income inequality in more detail below. For now, just focus on being able to "see" that underlying trendline in your mind's eye.
 
@@ -76,9 +76,10 @@ Now it's time to answer our third question. Which industries seem to drive GDP i
 
 **Table 1** below provides a breakdown of GDP (i.e. the total market value of all final goods and services produced domestically - by firms in these industries - in the years of 2019, 2020, and 2021) according to the major industry group classifications. We can use this information to answer our third question that we can use GDP to answer: What industries are driving change in the US economy? 
 
-\begin{center}
-    \includegraphics{IndustryVA1921.png}
-\end{center}
+```{r, echo = F, out.width= '75%', fig.align='center', fig.cap= "Industrial Drivers of US GDP "}
+
+    knitr::include_graphics('./IndustryVA1921.png')
+```
 
 When you look at Table 1, look from the top down and pay particular attention to the indents. Notice that "Mining" is below "Private Industries" and indented. That means that "Mining" is a sub-component of "Private Industries". In other words, you do not compare these two groups. Rather, mining is a piece of the total GDP from Private Industries. But, you can compare "Mining" and "Utilities". Why? Because they are left-indented to the same extent. 
 
@@ -97,13 +98,12 @@ $\frac{2.37}{21.373} * 100 = 11.1 \%$
 
 In 2019, *Manufacturing* made up just over 11\% of the US economy. Take a second and consider what that means to you? Does that seem high? Low? Again, it's just not that meaningful unless you have something to compare it to. What if I told you that manufacturing's typical share of GDP for a mid- to large-sized city would be about 20\%, what do you think about that 11\% figure? Well, okay, that's not a comparison to a federal government though. So, let's make a better comparison. Let's look at manufacturing's share of GDP in the US over time. 
 
-\begin{figure}
-\begin{center}
-\caption{US Manufacturing as a share of GDP, 1997 - 2021}
-\label{Figure 3:}
-\includegraphics{ManuPctGDP9721.png}
-\end{center}
-\end{figure}
+
+```{r, echo = F, out.width= '75%', fig.align='center', fig.cap= "US Manufacturing as a share of GDP, 1997 - 2021 "}
+
+    knitr::include_graphics('./ManuPctGDP9721.png')
+```
+
 
 Figure 3 tells us quite a few things about manufacturing's relationship with the US economy. First, we see that manufacturing's share of GDP has been declining steadily since 1997. It certainly still matters to the overall level of total US output, but it's becoming less important over time. Second, the rate of decline in manufacturing's share of GDP is decreasing **BUT** it is decreasing slower in more recent years. If we extend that curve out (again in your mind's eye), manufacturing's share of GDP is approaching a resting place at approximately 10\% of GDP. 
 
@@ -128,13 +128,11 @@ Equation 2 tells us that total GDP ("Y") can be broken down into six components:
 
 These components are not equally important in size, nor in theory. Figure 4 illustrates the relative shares of GDP and their trends over time. 
 
-\begin{figure}
-\begin{center}
-\caption{Spending components of US GDP, 1947 - 2021}
-\label{Figure 4:}
-\includegraphics{GDPshares.png}
-\end{center}
-\end{figure}
+```{r, echo = F, out.width= '75%', fig.align='center', fig.cap= "Spending components of US GDP, 1947 - 2021 "}
+
+    knitr::include_graphics('./GDPshares.png')
+```
+
 
 *Household consumption* is the total spending on domestically-produced final goods and services by households - by you and me - in a given year. According to Figure 4, our collective spending accounts for nearly 70\% of total GDP. Our spending accounts for almost 70\% of \$24 Trillion...wow, we spend a lot. Notice too, that the share of GDP attributable to household consumption grew considerably from the mid-1950s through 2000. Since 2000, the relative share of GDP has remained essentially unchanged. 
 
