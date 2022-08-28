@@ -33,11 +33,13 @@ Now that we have some initial clarity on the definition of GDP, let's see it in 
 
 We will use [Bureau of Economic Analysis](www.bea.gov) a fair bit in the coming weeks. For now, let's keep practicing with the [St. Louis FRED](https://fred.stlouisfed.org/) website. Using the search tool, go find the data series for "Gross Domestic Product". When you do, you should be able to reproduce Figure 1 below.
 
-\begin{figure}
-  \caption{US GDP, 1947-2021}
-  \label{Figure 1:}
-    \includegraphics{GDP4721.png}
-\end{figure}
+
+```{r, echo = F, out.width= '75%'}
+
+    knitr::include_graphics('./GDP4721.png')
+```
+
+
 
 Let's explore Figure 1 for a moment. Before you look to closely at the line graph, I want you to look at the X and Y axes. Go slowly here, there's no rush. Make sure you know what the axes are AND what **units** they are in. The X-axis is pretty clear: it's just the year with labels only showing up in 5-year intervals. The Y-axis though might be intimidating for you. If it is, don't worry and just trust me. Go slowly. There is no rush. The Y-axis is "Billions of Dollars". That is telling you how many zeros to add to any number that shows up on the Y-axis. For example, if the Y-axis said "Thousands of Dollars", then any number on the Y-axis would need three zeros added to it - because 1,000 has three zeros. So, \$100 becomes \$100,000; \$1,000 becomes \$1,000,000; and \$20,000 becomes \$20,000,000. We know that one Billion Dollars has nine zeros: \$1,000,000,000. So, we need to add nine zeros to any number on the Y-axis. That means that \$24,000 Billion Dollars is really \$24,000,000,000,000. That's \$24 Trillion dollars ... and there you have it, you've answered the first question on our list. The U.S. economy is a \$24 Trillion dollar economy. That's how big it is.
 
