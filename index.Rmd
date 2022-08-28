@@ -5,5 +5,9 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# Down the rabbit-hole
+# Preface
+# Measuring the Economy: Means as Ends or Means to Ends?
+# A Framework for a Capitalist Economy
+# Money, Profits, and Incentives: A Struggle for Power
+
 
