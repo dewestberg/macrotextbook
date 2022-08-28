@@ -34,7 +34,7 @@ Now that we have some initial clarity on the definition of GDP, let's see it in 
 We will use [Bureau of Economic Analysis](www.bea.gov) a fair bit in the coming weeks. For now, let's keep practicing with the [St. Louis FRED](https://fred.stlouisfed.org/) website. Using the search tool, go find the data series for "Gross Domestic Product". When you do, you should be able to reproduce Figure 1 below.
 
 
-```{r, echo = F, out.width= '75%'}
+```{r, echo = F, out.width= '75%', fig.align='center', fig.cap= "Figure.caption"}
 
     knitr::include_graphics('./GDP4721.png')
 ```

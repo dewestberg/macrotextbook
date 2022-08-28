@@ -1,7 +1,7 @@
 bookdown::gitbook:
   css: style.css
   config:
-    toc:
+    toc: 
       before: |
         <li><a href="./">A Textbook for Principles of Macroeconomics</a></li>
       after: |
