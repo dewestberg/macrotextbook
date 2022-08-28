@@ -143,7 +143,7 @@
 <h3><span class="header-section-number">1.2.2</span> Measuring GDP<a href="measuring-the-economy-means-as-ends-or-means-to-ends.html#measuring-gdp" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Now that we have some initial clarity on the definition of GDP, let’s see it in action. The agency responsible for measuring and reporting out U.S. GDP is called the <a href="www.bea.gov">Bureau of Economic Analysis</a>. Go there now and try to find the data for GDP.<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> In general, just look around for a minute and see just a snapshot of what’s there.</p>
 <p>We will use <a href="www.bea.gov">Bureau of Economic Analysis</a> a fair bit in the coming weeks. For now, let’s keep practicing with the <a href="https://fred.stlouisfed.org/">St. Louis FRED</a> website. Using the search tool, go find the data series for “Gross Domestic Product”. When you do, you should be able to reproduce Figure 1 below.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-6"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
 <img src="GDP4721.png" alt="US GDP (1947-2021" width="75%" />
 <p class="caption">
 Figure 1.1: US GDP (1947-2021
@@ -157,7 +157,7 @@ Figure 1.1: US GDP (1947-2021
 <p>Equation 1 says that the percent change (signified by the Greek symbol <span class="math inline">\(\Delta\)</span> - read it as “Delta”) is equal to the newest level value minus the older level value of interest, divided by the older level value of interest. That will give you a basic proportion. Multiplying it by 100 then puts the percent value (aka <strong>the rate</strong>) in terms we are used to seeing, e.g. 5%.</p>
 <p>Let’s do one quick example by answering the question: How much did the economy grow (i.e. what rate did GDP grow by) from 2020 to 2021? First, find the level value of GDP for 2021: $22.996 Trillion. Second, find the level value of GDP for 2020: $20.893 Trillion. Now, just use the formula to “plug n chug”.</p>
 <p>And now we have answered the second question. The economy grew over 6.7% in 2021. Now, on your own, convert the GDP data series in FRED to “percent change”. You should have been able to replicate Figure 2, below. If not, you need to try a few more times <strong>but then ask for help</strong>.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-7"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
 <img src="GDP4721pctch.png" alt="US GDP Growth Rates, 1947-2021" width="75%" />
 <p class="caption">
 Figure 1.2: US GDP Growth Rates, 1947-2021
@@ -167,7 +167,7 @@ Figure 1.2: US GDP Growth Rates, 1947-2021
 <p>Figures 1 and 2 give us our first direct comparison between <strong>levels</strong> and <strong>rates</strong>. Figure 1 is relatively smooth, with seemingly small movements from one period to the next. Figure 2 though is much more <em>volatile</em>, meaning the movements from one period to the next look large. It definitely is not a smooth line.</p>
 <p>Now it’s time to answer our third question. Which industries seem to drive GDP in the United States. For that, we need to go to the <a href="https://apps.bea.gov/iTable/iTable.cfm?reqid=150&amp;step=2&amp;isuri=1&amp;categories=gdpxind">BEA</a>. Here, we are going to explore “Value Added by Industry” from 2019 through 2021.<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a> You’ll need to play with this a bit to learn how to use the website effectively. Take that experience seriously.</p>
 <p><strong>Table 1</strong> below provides a breakdown of GDP (i.e. the total market value of all final goods and services produced domestically - by firms in these industries - in the years of 2019, 2020, and 2021) according to the major industry group classifications. We can use this information to answer our third question that we can use GDP to answer: What industries are driving change in the US economy?</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-8"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-5"></span>
 <img src="IndustryVA1921.png" alt="Industrial Drivers of US GDP " width="75%" />
 <p class="caption">
 Figure 1.3: Industrial Drivers of US GDP
@@ -183,7 +183,7 @@ Figure 1.3: Industrial Drivers of US GDP
 </ol>
 <p>I’ve made this list by relying on the levels of their individual contributions to GDP. Look at Table 1 again. Manufacturing produced roughly $2.37 Trillion in final sales in 2019. Now, that’s a big number. And, frankly, it’s a number that means basically nothing to any normal human. So, let’s transform it to something that makes mroe sense: ** a proportion**. To do that, we simply divide the level (i.e. $2.37) by the total economy ($21,373). This ratio is simply asking how big is the total contribution of manufacturing to the US economy? The answer:</p>
 <p>In 2019, <em>Manufacturing</em> made up just over 11% of the US economy. Take a second and consider what that means to you? Does that seem high? Low? Again, it’s just not that meaningful unless you have something to compare it to. What if I told you that manufacturing’s typical share of GDP for a mid- to large-sized city would be about 20%, what do you think about that 11% figure? Well, okay, that’s not a comparison to a federal government though. So, let’s make a better comparison. Let’s look at manufacturing’s share of GDP in the US over time.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-9"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-6"></span>
 <img src="ManuPctGDP9721.png" alt="US Manufacturing as a share of GDP, 1997 - 2021 " width="75%" />
 <p class="caption">
 Figure 1.4: US Manufacturing as a share of GDP, 1997 - 2021
@@ -208,7 +208,7 @@ Y = C + I + G + X - M
 <li>Total Imports (M)</li>
 </ul>
 <p>These components are not equally important in size, nor in theory. Figure 4 illustrates the relative shares of GDP and their trends over time.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-10"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-7"></span>
 <img src="GDPshares.png" alt="Spending components of US GDP, 1947 - 2021 " width="75%" />
 <p class="caption">
 Figure 1.5: Spending components of US GDP, 1947 - 2021
