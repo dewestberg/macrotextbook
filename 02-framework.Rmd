@@ -1,0 +1,93 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+
+# How the economy works: Profits and Power
+
+## Purpose & Objectives
+
+Every chapter in this book will begin in the same way. It will outline the purpose and learning objectives for the student. Each chapter will include practice questions that are similar to my test questions (so I strongly suggest you do them!), and will include links to data sources and materials for further exploration.
+
+The purpose of this chapter is to outline the architecture of a Capitalist economic system. This is central to the study of economics. It defines the system that all countries must either work within/with/against to be successful. By the end of this chapter, you will:
+
+  * Understand the structure of a modern Capitalist economy.
+  * Understand the location and centrality of work within that economic framework.
+  * Begin to articulate the internal dependencies that Capitalism creates and reproduces.
+  
+## The Structure of a Modern Capitalist Economy
+Our social provisioning process, our economy, is organized around the private ownership of the means of production, markets, and purchased labor. This is **Capitalism**. One of the simplest but most powerful descriptions of the structure of Capitalism was delivered by the economist, Karl Marx (1867, Ch- 4 and 1885, Chapter 1). Here Marx used a schema that he referred to as the *The Circuit of Capital*. His circuit had three distinct stages of "Capital Accumulation". Let's explore those in more detail. 
+
+**Stage 1:** A Capitalist uses money (M) to purchase labor power (LP) and the means of production (MP).
+
+\begin{equation}
+M -> LP, MP
+\end{equation}
+
+Stage 2: Labor power and the means of production are combined in the process of production to produce a commodity of greater "value" (C') than that of its inputs.
+
+\begin{equation}
+C(L, MP) ... P - C'
+\end{equation}
+
+Stage 3: The Capitalist takes the newly produced commodity to the market, selling it for more money (M') than was originally invested (M).
+
+\begin{equation}
+C'-M'
+\end{equation}
+
+The entire process is described by economic geographer and Marx scholar David Harvey as, "capital in motion." Its central driving motivation, the force underpinning a functioning capitalist economy, is *the expectation of profit*. 
+
+Combining these stages, we see the system as a whole, but we can also begin to uncover the embedded social relations that Marx saw as fundamental to Capitalism. This is capital accumulation - the process of creating profit:
+
+\begin{equation}
+M - C(L,MP)... P - C' - M'
+\end{equation}
+
+In the first stage of the process of capital accmnulation Capitalists make two important decisions. The first is whether or not to produce. Why would a Capitalist make this decision? Well, the schema tells us. Members of the Capitalist class will/should only engage in commodity creation if they expect to make more money (M') than they initially invested (M). In other words, they would only engage in production if they expect to make profits. The second decision is a question of how to finance the project. Capitalists could get a loan from a bank, they could get seed money from equity investors, they could issue bonds, sell stocks, and even seek out venture capital (like on Shark Tank). If the Capitalist expects to make profits and is able to find financing, she then moves on to the second stage of capital accumulation: production.
+
+In the second stage, the capitalist combines labor and the means of production to carry out the process of production; this takes time and emphasizes the role of labor and technology in production but also in Capitalism writ large. Considering the role of an economy in a society or culture, the position of labor in Capitalism is quite intriguing. Workers produce all of the goods and services that a society needs to fulfill its institutionalized daily tasks. They are critical to the production of goods and services necessary for society to reproduce itself. Without these workers (and the Capitalists that hired them), at least in this schematic, the society would not be able to reproduce itself as it was designed to do. This stage of production relies heavily on the workers (how healthy they are, how educated they are, how dependable they are, how happy they are etc.), the technology embedded within the means of production (machinery, equipment, buildings, land, public infrastructure, etc.), and the natural resources associated with that geographic space (climate, water quality, aesthetic appeal, etc.). Assuming the workers can do the work and are willing to do so at the wage on offer and that the means of production they are using are sufficient to produce the intended commodities, this second stage will proceed accordingly to stage three: consumption.
+
+Finally, the third stage occurs when the capitalist takes the commodity created by the combination of labor and technology to the market. This stage is critical to the capitalist. She must sell the commodity for an amount of money that covers all of her prior expenses (M) and provides her with profits (M' > M). If this stage works properly, consumers (which are just workers after they've been paid) purchase the goods and services on offer at the prices required to create profit (M' > M). If successful, the members of society now have the goods and services they require to meet the needs of their social lives and continue the process of reproducing this society. This approach to describing the structure of the macro economy helps us consider three critical questions. 
+
+  1. How does this economic structure affect the social relations within that society? 
+  2. What tensions or problems emerge from the ongoing reproduction of this chain of capital? 
+  3. How does this system work on an interconnected global scale?
+
+## The Social Relations to and from Production
+The process of production is at the core of your daily life, whether you know it or not. The time we get up, the way we interact with our friends and family, the types of jobs and careers we pursue are all intricately connected with the process of production in this Capitalist economy. The lives of people in developing countries are no different, but the process of production is. At its core, Capitalism is all about generating and reproducing dependent relationships. Those dependencies are critical to establishing and maintaining power dynamics. Let's explore those dependencies in more detail.
+
+
+#### Stage 1: Financing
+The fist stage of capital accumulation - financing - includes two actors: Capitalists and their financiers. Those financiers provide the liquidity to start the process of capital accumulation, and their money can come from a wide range of sources. The most common form of financing for small endeavors still is the traditional bank loan. But, firms can also use their own savings - called "retained earnings" - or they might issue bonds of their own. However, larger firms and firms in the fast paced world of start up enterprises often seek out non-bank equity investors. Each of these options requires different strategies, different types of projects, etc. But, the common thread between them is the financier is in the driver's seat. The Capitalist is dependent upon the financial sector to gain access to the money she needs to get production up and running. This has several important implications for production (and consequently for daily life). First, the financial sector must be able to provide liquidity - money - to Capitalists. This means the financial sector must be "healthy" and must be willing to part with its own liquidity. Second, the financial sector is in a position to decide which projects get funding and which do not. Moreover, the financiers are in position to make demands on returns too. This may alter the Capitalist's initial designs. Higher returns from investors may require Capitalists to cut costs, push more productivity from workers, use lower quality materials, etc. Finally, the financial sector must be trusted by the Capitalist enough to enter into a mutually-beneficial (one would expect) agreement.
+
+#### Stage 2: Production
+The dependent relationships in stage two - production - are quite different. The production process relies directly on three distinct roles (capitalists, workers, and the owners of the necessary means of production (aka other Capitalists).). Capitalists must directly or indirectly oversee the production process. This includes hiring employees, managers, CEOs, etc. It also requires the development of rules and regulations that organize the working day and environment, the quality of the goods and services being produced, marketing plans, location decisions, etc. The list is expansive, but a good manager hires talented people to take over those roles. They hire employees with the technical skills, problem solving skills, and communication skills needed to do the job well, and try to maximize the difference between (M' - M). The means of production that matter most are the tools workers use to produce the product. Whether these tools are hydraulic lifts, computers, software, fabric, sewing machines, paint, etc. the point is that the workers interact with these tools (including their physical work spaces) to engage in, and complete the production process. But, they are producing a product with someone else's equipment. They are producing output that they do not own. 
+
+This stage represents a variety of dependencies. The first relationship exists clearly between the Capitalist and the worker. Without the Capitalist's decision to engage in production and enter into an agreement with agents in the financial sector, the circuit of capital would not start in the first place, leaving the worker unemployed. Worse still, if the worker is unemployed they cannot get access to the money they need to live their social lives. This can be potentially devastating to the worker, but workers will also have people that depend on them (e.g. kids, partners, older parents, siblings with mental/physical disabilities, etc.). Capitalists, on the other hand, do not need income continuously over the span of, let's say, a year. Unlike workers, profits usually are determined periodically throughout the year. Capitalists understand this and set up their social lives around this reality. Consequently, capitalists have much greater bargaining power in this relationship; they are in a position to wait. 
+
+There is also one critical external dependency that takes two forms. The first form is a relation to the broader economy. Capitalists are dependent upon markets to acquire the means of production that meet their technical requirements. They need to be able to find the materials, machines, locations, etc. that ensure their workers will be able to produce the desired output. Hence, a well-functiomng economy will create diverse and accessible markets that will provide affordable inputs into the production process. The second form is a relation to the broader society, particularly the health and education systems. Capitalists need workers that can do the job. They must be physically well enough to show up on a regular basis and perform the work. They also must have the knowledge, skills, and work expectations that the commodity requires in its production process.
+
+#### Stage 3: Consumption
+The final stage of the circuit of capital is the sale and consumption of the Capitalist's commodity to its consumer. This stage depends almost exclusively on the Capitalist and the Consumer. On the surface, the Capitalist has to produce a commodity that consumer will actually buy. She must also set it at a price consumers will be willing and able to pay. In this sense, Capitalists are quite dependent upon consumers desires and financial abilities. However, consumers rely heavily on Capitalists too. Consumers are simply workers by another name. If they are to be purchase the products they helped produce, they must first get paid enough by the Capitalist to do so. 
+
+
+### Review Questions:
+
+  1. How can each stage break down?
+  2. What is the role of the State? 
+  3. How can/has/does the State alleviate the risks of economic crises in each stage?
+
+
+
+
+
+
+
+
+
+
+
+
+
