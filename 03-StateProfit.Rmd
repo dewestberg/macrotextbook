@@ -1,33 +1,12 @@
 ---
-title: "Ch. 3 Profits and Inequality: The Kalecki Profit Equation"
-subtitle: "Understanding how incentives are structured"
-header-includes:
-- \usepackage{morefloats}
-- \usepackage{graphicx}
-- \usepackage{float}
-- \usepackage{amsmath}
-- \usepackage{amssymb}
-- \usepackage{booktabs}
-- \usepackage{longtable}
-- \usepackage{rotating}
-- \usepackage{makecell}
-- \usepackage{tikz}
-- \usepackage[labelfont=bf]{caption}
-- \usepackage[format=hang,font={bf}]{caption}
-date: "Spring 2020, Working Draft"
 output:
-  pdf_document:
-    fig_caption: yes
-    fig_crop: no
-    highlight: haddock
-    keep_tex: yes
-    number_sections: yes
-  html_document:
-    df_print: paged
-urlcolor: blue
+  pdf_document: default
+  html_document: default
 ---
 
-# Purpose & Learning Objectives
+# Profits, Deficits, and Inequality
+
+## Purpose & Learning Objectives
 
 The purpose of this chapter is to answer a critical question: Where do profits come from? In answering this question, we will need to address two related issues: money and taxes. This chapter will present students with a comprehensive view of the creation of profits at the macroeconomic level. In addition, it will provide students with an organized and detailed review of the *Kalecki Profit Equation* derived by Polish Economist Michael Kalecki (1969).^[Jerome Levy is credited with uncovering this equation some 30 years years before Kalecki. See a short but very readable paper [here](http://www.levyinstitute.org/pubs/wp309.pdf).] After exploring the derivation of the Kalecki Profit Equation, the chapter turns to grounding our understanding of profits in the real word, through measurement. We will explore two measures of profits and integrate these measures into our unfolding framework of the macroeconomy. After reading this chapter, students will be able to:
 
@@ -39,7 +18,7 @@ The purpose of this chapter is to answer a critical question: Where do profits c
   4. Articulate the role of the State within the Circuit and how it uses its regulatory powers and spending/tax powers (specifically the federal deficit) to support profit expectations. 
   5. Discuss the implications of the Kalecki Profit Equation on the relationship between Capitalism and Income Inequality.
 
-# The Role of Profits in a Capitalist Economy
+## The Role of Profits in a Capitalist Economy
 Chapter 2 introduced students to our initial framework for a Capitalist economy. The framework guides our analysis of the economy and helps us ask important questions about the stages and actors in that framework. We described an economic system guided by profit expectations. This raises a logical follow-up question: Just where do these profits come from? This question, it turns out, has a straight-forward answer. But, it will be one that you have largely been trained not to like and/or not to see. Profits, in a Capitalist economy, necessarily take the form of money. Therefore, to truly understand where profits come from in the system, we first need to understand how money gets created AND who gets to do the creating. Here we go. 
 
 At this point, we are going to modify our framework from Chapter 2. Recall our discussion of frameworks both in class and previously in this text. Frameworks are tools to focus our attention, to guide our analysis in a thoughtful way. However, frameworks come at a price: they make us forget about what we do not see.^[Essentially just like "The Silence" in Dr. Who.] Frameworks help us ask relevant and often powerful questions about the elements of the system we have put in play, but it is damn near impossible for us to ask questions about actors/stages/processes in the world that are not a part of our framework. And so, in this chapter we begin the process that we will continue throughout this book: we build the framework up. 
@@ -103,12 +82,12 @@ knitr::include_graphics("loans_profits.png")
 
 There you have it. Profits are created when new money is spent into the economy AND is left in the economy at least temporarily. That's the simple answer. But, this answer just tells us where it comes from, it doesn't help us understand the factors that determine the *level* of profits in the economy. For that, we turn to the **Kalecki Profit Equation**.
 
-# The Place of the Profit Equation
+## The Place of the Profit Equation
 The Kalecki Profit Equation plays a critical role in our understanding of Capitalism. The Kalecki Profit Equation essentially formalizes Marx's *Circuit of Capital*. It answers a critical question too: **What determines the level of profits at the macro-level?**
 
 The answer to this question also has an important implication for the order of things. I want to highlight that here: the equation determines the level of profits at the macroeconomic level. It does not determine the profit-level of a business or sector. Instead, it suggests the level of profits that Capitalists are competing for. And make no mistake, Capitalists do compete against each other, fiercely so. And that's a great thing for all of us.^[Which is one reason why the increasing market concentration across all industries is a real problem.] 
 
-## The original two-sector model
+### The original two-sector model
 
 Here, I'm going to derive our first real mathematical model, an equation. I will go slowly through this, but it is up to you to go over this several times to ensure you both know the profit equation AND how it was derived. Again, take it slow but be dilligent.
 
@@ -154,14 +133,14 @@ Equation 5 also highlights a fundamental truth about the inherent incentives in 
 
 Equation 14 presents the true recipie of the Capitalist system. Though it is possible for the levels of wages and profits to both rise, it is not possible for labor's share of income to rise and profit's share of income to rise simultaneously. They are negatively related. Any gains by workers, will necessarily come at the expense of Capitalists. This has serious implications for a system that we are all "bought into" to some extent. We all depend on this process working. Therefore, the strongest incentives in the system are to support an increasing share of income for Capitalists at the expense of the Worker's share of income. It's quite literally, "backed into the cake".
 
-## Implications of the two-sector model
+### Implications of the two-sector model
 Kalecki argues that total profits are determined by Capitalist's own spending out of their previously accumulated profits and Capitalist's own spending through the businesses they own via investment. The Equation also highlights the relationship between profits and wages. 
 
 As workers save more, this necessarily reduces the level of profits^[And remember those profits are what firms are competing to accumulate.] Recall that $S_w = W - C_w$. So, from the Capitalist perspective your goal is to minimize worker savings. There are two ways to do that. First, you can keep wages low. Or, taking the approach attributed to Henry Ford, you can increase worker consumption out of the wages they are paid.
 
 Nicholas Kaldor summed up Kalecki's findings in the effective phrase: "**Capitalists get what they spend; workers spend what they get.**"
 
-## The multi-sector model 
+### The multi-sector model 
 Now, let's make this a bit more relevant by bringing the government into the fold, along with the financial sector, property owners, and the rest of the world. 
 
 \begin{equation}
@@ -186,12 +165,12 @@ Equation 8 arranges the variables in more useful terms. Let's unpack this equati
 \pi = \underbrace{C_{\pi} + I}_{\text{Capitalist's own spending}} + \underbrace{(G - T)}_{\text{the government deficit}} + \underbrace{(X - M)}_{\text{the rest of the world}} - \underbrace{i - r}_{\text{financial and capital markets}} - \underbrace{S_w}_{\text{labor markets}}
 \end{equation}
 
-## Implications of the multi-sector model
+### Implications of the multi-sector model
 In looking at Equation 9, we can see the individual pieces to the story of profits at the macro level. The original finding still holds. One of the major sources of Capitalist profits are Capitalists themselves. But we also have two additional sources of profits: the domestic public sector's deficit spending and the rest of the world (but only if $X > M$). The rest of the factors detract from profits, including interest paid to the financial sector, rents paid to property owners, and as before, worker savings out of wages. 
 
 In the U.S. context, and much of the developed world, net exports (X - M) is actually negative, meaning they import more than they export. So, in reality, the primary sources of net profits at the macro level are Capitalists themselves - through their own spending out of past profits and the spending of the firms they own - and the domestic public sector's deficit. 
 
-# How do Capitalists get what they spend?
+## How do Capitalists get what they spend?
 Let's talk for a moment about how this works. Here, I'm going to introduce the notion of a profit markup on costs ($\mu$). Most prices in the economy are set by adding a profit markup on top of costs.^[This actually gets pretty complicated. Some firms might add a markup to unit costs, some firms might just target a particular return, etc. The point is the profit markup covers some amount of overhead costs (i.e. pay managers), plus the rate of profit the Capitalist wants/is able to achieve, given market conditions.] So, every time you buy a pop, a pizza, a notebook, etc. the prices you are paying include a profit markup, $\mu$.^[We can offer a general equation to describe this pricing behavior too:
 
 \begin{equation}
@@ -202,7 +181,7 @@ Equation 10 just formalizes this relationship. $\mu$ is the profit-markup on cos
 
 With this understanding, we can now see how Capitalist household spending adds to profits. Everything they purchase contains a profit markup. The same is true of business investment. When firms invest, they buy goods and services from other firms, at prices set by those other firms - prices that include their profit markups. When the public sector spends, they do so directly to workers (who then go buy products at prices that include markups) or contract directly with firms at prices that include profit markups. In short, **nearly all spending generates profits somewhere in the system.**
 
-### Profits and Deficits
+## Profits and Deficits
 This chapter has outlined the role of State spending and bank lending in creating the potential scale of profits at the macroeconomic level. The four sources of profit creation are Capitalists own spending on consumption goods, Workers own spending on consumption goods, Capitalists own spending on Investment goods, and the State's deficit spending - the money it spends into the economy but does not tax back. We will turn to investment spending in Chapter 6. Here though, I want to explore the State's deficit spending in more detail using the **Sectoral Balances Equation** pioneered by the British Economist [Wynne Godley](https://www.levyinstitute.org/scholars/wynne-godley). 
 
 We can derive the Sectoral Balances Equation from the Kalecki Profit Equation itself. Beginning with Equation 9, we can move all of the domestic private sector incomes and spending to the left-hand side of the equals sign. The result is a simple but powerful accounting identity:

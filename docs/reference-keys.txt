@@ -2,6 +2,9 @@ fig:unnamed-chunk-1
 fig:unnamed-chunk-2
 fig:unnamed-chunk-4
 fig:unnamed-chunk-5
+fig:unnamed-chunk-6
+fig:unnamed-chunk-7
+fig:unnamed-chunk-8
 what-is-this
 who-am-i
 why-this-book
@@ -27,3 +30,17 @@ stage-1-financing
 stage-2-production
 stage-3-consumption
 review-questions
+profits-deficits-and-inequality
+purpose-learning-objectives-1
+the-role-of-profits-in-a-capitalist-economy
+a-story-of-money-creation
+state-money
+bank-money
+the-place-of-the-profit-equation
+the-original-two-sector-model
+implications-of-the-two-sector-model
+the-multi-sector-model
+implications-of-the-multi-sector-model
+how-do-capitalists-get-what-they-spend
+profits-and-deficits
+conclusion-1
